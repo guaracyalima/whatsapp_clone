@@ -10,14 +10,6 @@ import { createStore, applyMiddleware } from 'redux'
 //reducers
 import reducers from './reducers/'
 
-// export default props => (
-//
-//   <Provider store={ createStore ( reducers )}>
-//
-//     <Routes />
-//
-//   </Provider>
-// )
 
 export default class App extends Component{
   componentWillMount(){
